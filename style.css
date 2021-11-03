@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    font-family:Consolas;
+    font-family:'Ubuntu Mono';
     user-select:none;
     touch-action: none;
 }
@@ -24,7 +24,7 @@ html{
     height:80%;
     width:auto;
     max-width:90vw;
-    aspect-ratio: 3/5;
+    aspect-ratio: 3/6;
     border-radius:4%;
     padding:5vh 3vh 5vh;
     display:flex;
@@ -36,13 +36,11 @@ html{
     box-sizing:border-box;
     height:15%;
     max-height:15%;
-    width:100%;
-    max-width:100%;
+    width:50vh;
+    max-width:50vh;
     background-color:gray;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
     padding-right: 2vh;
+    padding-top:2%;
 }
 #mainOutput{
     text-align:right;
@@ -51,6 +49,7 @@ html{
 #secondOutput{
     text-align:right;
     font-size:150%;
+    height:20%;
 }
 #inputContainer{
     margin-top:5%;
@@ -61,6 +60,7 @@ html{
     max-width:100%;
     display:flex;
     flex-wrap:wrap;
+    padding-top:5vh;
 }
 
 .button,.buttonBig{
@@ -70,7 +70,7 @@ html{
     font-size:250%;
     height:20%;
     max-height:20%;
-    transition: 0.1s;
+    transition: 0.05s;
     border-radius:5%;
 }
 .button{
@@ -82,7 +82,7 @@ html{
     max-width:50%;
 }
 .button:hover,.buttonBig:hover{
-    background-color:rgba(255, 255, 255, 0.027);
+    background-color:rgba(255, 255, 255, 0.089);
     transform:translateY(-10%);
 }
 .button:active, .buttonBig:active{
